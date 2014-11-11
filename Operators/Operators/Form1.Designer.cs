@@ -71,6 +71,7 @@
             this.txtOpStg.Name = "txtOpStg";
             this.txtOpStg.Size = new System.Drawing.Size(100, 20);
             this.txtOpStg.TabIndex = 2;
+            this.txtOpStg.TextChanged += new System.EventHandler(this.txtOpStg_TextChanged);
             // 
             // txtOpDr
             // 
@@ -78,6 +79,7 @@
             this.txtOpDr.Name = "txtOpDr";
             this.txtOpDr.Size = new System.Drawing.Size(100, 20);
             this.txtOpDr.TabIndex = 3;
+            this.txtOpDr.TextChanged += new System.EventHandler(this.txtOpStg_TextChanged);
             // 
             // grpOperators
             // 
@@ -104,6 +106,7 @@
             this.rbtPlus.TabStop = true;
             this.rbtPlus.Text = "+ Plus";
             this.rbtPlus.UseVisualStyleBackColor = true;
+            this.rbtPlus.CheckedChanged += new System.EventHandler(this.rbtPlus_CheckedChanged);
             // 
             // rbtMinus
             // 
@@ -114,6 +117,7 @@
             this.rbtMinus.TabIndex = 1;
             this.rbtMinus.Text = "- Minus";
             this.rbtMinus.UseVisualStyleBackColor = true;
+            this.rbtMinus.CheckedChanged += new System.EventHandler(this.rbtMinus_CheckedChanged);
             // 
             // rbtInmultire
             // 
@@ -124,6 +128,7 @@
             this.rbtInmultire.TabIndex = 2;
             this.rbtInmultire.Text = "* Inmultire";
             this.rbtInmultire.UseVisualStyleBackColor = true;
+            this.rbtInmultire.CheckedChanged += new System.EventHandler(this.rbtInmultire_CheckedChanged);
             // 
             // rbtImpartire
             // 
@@ -134,6 +139,7 @@
             this.rbtImpartire.TabIndex = 3;
             this.rbtImpartire.Text = "/ Impartire";
             this.rbtImpartire.UseVisualStyleBackColor = true;
+            this.rbtImpartire.CheckedChanged += new System.EventHandler(this.rbtImpartire_CheckedChanged);
             // 
             // rbtRest
             // 
@@ -144,6 +150,7 @@
             this.rbtRest.TabIndex = 4;
             this.rbtRest.Text = "% Rest";
             this.rbtRest.UseVisualStyleBackColor = true;
+            this.rbtRest.CheckedChanged += new System.EventHandler(this.rbtRest_CheckedChanged);
             // 
             // btnCalcul
             // 
