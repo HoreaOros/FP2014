@@ -1,17 +1,17 @@
-﻿using System;
+using System;
 using System.IO;
 
-namespace Matrici
+namespace Matrice
 {
     class Program
     {
         static void Main(string[] args)
         {
             int[,] m;
-            //Citirea matricii
+            //Citirea matricei
             m = ReadMatrix("input.txt");
-            
-            //Afisarea matricii
+
+            //Afisarea matricei
             AfisareMatrice(m);
 
             // Maxim din matrice
@@ -120,7 +120,7 @@ namespace Matrici
                     if (m[i, j] > max)
                     {
                         max = m[i, j];
-                    }  
+                    }
                 }
             }
             return max;
@@ -131,7 +131,7 @@ namespace Matrici
             int[,] m = null;
             try
             {
-                
+
                 int linii, coloane;
                 StreamReader sr = new StreamReader(filename);
 

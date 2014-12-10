@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrici", "Matrici\Matrici.csproj", "{DC0D8877-0AAF-4A3F-A8CE-B4B6C44F14D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrice", "Matrice\Matrice.csproj", "{DC0D8877-0AAF-4A3F-A8CE-B4B6C44F14D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
