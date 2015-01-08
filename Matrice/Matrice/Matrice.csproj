@@ -7,8 +7,8 @@
     <ProjectGuid>{DC0D8877-0AAF-4A3F-A8CE-B4B6C44F14D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Matrici</RootNamespace>
-    <AssemblyName>Matrici</AssemblyName>
+    <RootNamespace>Matrice</RootNamespace>
+    <AssemblyName>Matrice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -51,7 +51,7 @@
     <Content Include="input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
