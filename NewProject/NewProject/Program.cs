@@ -2,7 +2,7 @@
 
 namespace NewProject
 {
-    
+
     class Program
     {
         static int NumarCifre(int n)

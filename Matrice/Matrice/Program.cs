@@ -8,10 +8,10 @@ namespace Matrice
         static void Main(string[] args)
         {
             int[,] m;
-            //Citirea matricei
+            // Citirea matricei
             m = ReadMatrix("input.txt");
 
-            //Afisarea matricei
+            // Afisarea matricei
             AfisareMatrice(m);
 
             // Maxim din matrice
@@ -19,7 +19,7 @@ namespace Matrice
             max = MaximMatrice(m);
             Console.WriteLine("Cel mai mare numar din matrice este: {0}", max);
 
-            //maxim de pe fiecare linie
+            // maxim de pe fiecare linie
             int[] maximLinii;
             maximLinii = MaximLinii(m);
             for (int i = 0; i < maximLinii.Length; i++)
@@ -34,7 +34,7 @@ namespace Matrice
                 Console.WriteLine("Coloana {0} - {1} suma", j + 1, sumaColoane[j]);
             }
 
-            //Matrice patratica
+            // Matrice patratica
             // suma elementelor de pe diagonala principala
             Console.WriteLine("Suma elementelor de pe diagonala principala este: {0}", SumaDP(m));
 
