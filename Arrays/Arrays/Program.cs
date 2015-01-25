@@ -44,10 +44,6 @@ namespace Arrays
                 if(index % 20 == 0)
                     sw.WriteLine();
             }
-
-            StreamReader sr = new StreamReader("input.in");
-
-  
         }
     }
 }

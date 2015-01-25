@@ -60,7 +60,6 @@ namespace Curs_9_dec
             }
 
             return n;
-
         }
     }
 }
